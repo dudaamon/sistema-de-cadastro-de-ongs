@@ -162,3 +162,22 @@ main form input + button {
   font-size: 2.4rem;
   cursor: pointer;
 }
+
+
+h3 {
+  margin-top: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cadastro-atuacao {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #ff5678;
+  margin-bottom: 1.2rem;
+}
