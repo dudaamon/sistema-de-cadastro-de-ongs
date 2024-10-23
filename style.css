@@ -19,8 +19,8 @@ body {
 
 img {
   max-width: 100%;
-  min-width: 10rem;
-  height: auto;
+  min-width: 8rem;
+  height: 75%;
 }
 
 .content {
@@ -31,6 +31,7 @@ img {
     ". pets . form ."
     ". . . . .";
   gap: 8.5rem;
+  height: 100vh;
 }
 
 main {
@@ -55,12 +56,11 @@ main h2 span {
 }
 
 main {
-  width: 60rem;
+  width: 100%;
   height: 52rem;
   border: var(--default-border);
   padding: 4.4rem 5.7rem;
   border-radius: var(--default-border-radius);
-  position: relative;
 }
 
 main h2 {
@@ -187,4 +187,29 @@ h3 {
   font-weight: 500;
   color: var(--default-color-pink);
   margin-bottom: 1.2rem;
+}
+
+@media (max-width: 767px) {
+  aside,
+  h1 {
+    display: none;
+  }
+
+  main {
+
+  }
+
+  .content {
+    display: grid;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". form ."
+      ". form ."
+      ". . ."
+      ". . .";
+    gap: 8.5rem;
+    height: 100vh;
+    width: 100%;
+  }
 }
